@@ -185,12 +185,6 @@ select {
 .visible {
   opacity: 1;
 }
-input[type="range"] {
-  overflow: hidden;
-  width: 80px;
-  -webkit-appearance: none;
-  background-color: #9a905d;
-}
 
 .thumbnail .keen-slider__slide {
   font-size: 30px;
@@ -203,13 +197,4 @@ input[type="range"] {
 .thumbnail .keen-slider__slide.active {
   /* border: 2px dashed black; */
   filter: blur(0);
-}
-
-/* .video iframe {
-  width: 90vw;
-  aspect-ratio: 16 / 9;
-} */
-
-:root {
-  --plyr-color-main: #e9ebf0;
 }

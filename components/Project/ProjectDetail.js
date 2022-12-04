@@ -1,8 +1,6 @@
 import { SliceZone } from "@prismicio/react";
 import { components } from "../../slices";
 import ProjectBtn from "./ProjectBtn";
-import EmailSubscribe from "../EmailSubscribe";
-// import Player from "../Player/Player";
 
 const ProjectDetail = ({ project, projects }) => {
   const videoSrc = {

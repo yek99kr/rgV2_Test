@@ -12,10 +12,8 @@ const HomePage = ({ router }) => {
   const isSmallestHeight = useMediaQueryHeight(349);
   const isTouch = useIsTouch();
 
-  // w214 h379
-
   return (
-    <div className="absolute w-[100vw] h-[100vh] overflow-hidden">
+    <>
       {isSmallerHeight || isSmallerWidth || isTouch ? (
         <div className="absolute top-0 left-0 bg-[#e9ebf0] w-[100vw] h-[100vh]"></div>
       ) : (
@@ -39,17 +37,7 @@ const HomePage = ({ router }) => {
       >
         <About router={router} />
       </motion.div>
-
-      {/* {isSmallestHeight || (isSmallestHeight && !isSmallestWidth) ? null : (
-        <>
-          <ProjectList />
-          <div className="relative grid place-items-center w-[100vw] grid-cols-1 mb-[20vh]">
-
-            <img className="w-[60vw]" src="/projectThumb/client.png"></img>
-          </div>
-        </>
-      )} */}
-    </div>
+    </>
   );
 };
 

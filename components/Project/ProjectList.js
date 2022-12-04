@@ -24,7 +24,7 @@ const ProjectList = ({ projects }) => {
     "md:mt-[0vw] md:rotate-[4deg] md:col-start-5 md:top-[-50px]",
   ];
 
-  const sizes = [29, 24, 24, 29, 26, 24, 27, 24, 31, 26, 24, 24, 30];
+  const sizes = [29, 24, 24, 29, 26, 24, 27, 24, 28, 26, 24, 24, 30];
 
   return (
     <div className="mx-auto py-16 px-5 sm:px-6 lg:px-0 sm:mt-[1rem] md:w-[90vw] lg:w-[80vw] xl:w-[75vw] ">

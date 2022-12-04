@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
-import ProductList from "../components/Shop/ProductList";
-import { getProductsInCollection } from "../lib/shopify";
 
-const store = ({ router, products }) => {
+const store = ({ router }) => {
   return (
     <>
       <motion.div
@@ -22,17 +20,23 @@ const store = ({ router, products }) => {
         }}
         className="fixed overflow-hidden w-[100vw] h-[100vw]"
       >
-        <ProductList products={products} />
+        <div className="md:w-[90vw] w-[100vw] h-[100vh] text-[4vw] 4xs:text-[4vw] sm:text-[22px] md:text-[22px] lg:text-[24px] xl:text-[25px]">
+          <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[50%] font-bold ">
+            <span className="wiggle1 text-pink-500">c</span>
+            <span className="wiggle2 text-sky-400">o</span>
+            <span className="wiggle3 text-yellow-500">m</span>
+            <span className="wiggle4 text-purple-500">i</span>
+            <span className="wiggle5 text-green-500">n</span>
+            <span className="wiggle6 text-pink-500">g</span>{" "}
+            <span className="wiggle7 text-sky-400">s</span>
+            <span className="wiggle8 text-yellow-500">o</span>
+            <span className="wiggle9 text-purple-500">o</span>
+            <span className="wiggle1 text-pink-500">n</span>
+          </div>
+        </div>
       </motion.div>
     </>
   );
 };
 
 export default store;
-
-export async function getStaticProps() {
-  const products = await getProductsInCollection();
-  return {
-    props: { products },
-  };
-}

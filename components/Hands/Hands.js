@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import Hand from "./Hand";
 import { ResizeObserver } from "@juggle/resize-observer";
 import { Environment } from "@react-three/drei";
-import { useProject } from "../../context/AppContext";
+// import { useProject } from "../../context/AppContext";
 
 const Hands = ({ router }) => {
   const texture = [
