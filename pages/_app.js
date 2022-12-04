@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps, router }) {
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
         />
       </Head>
-      <GoogleAnalytics strategy="lazyOnload" />
+      {/* <GoogleAnalytics strategy="lazyOnload" /> */}
       <ShopProvider>
         <PrismicProvider
           linkResolver={linkResolver}
