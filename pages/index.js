@@ -45,7 +45,6 @@ export default function Home({ router }) {
         }}
       >
         <HomePage router={router} />
-        {/* <div className="w-[100vw] h-[50vw] relative"> hello</div> */}
       </motion.div>
     </div>
   );
