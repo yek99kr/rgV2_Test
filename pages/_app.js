@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import Head from "next/head";
+import SEO from "../components/SEO";
 import { AnimatePresence } from "framer-motion";
 import Nav from "../components/Nav";
 import Link from "next/link";
@@ -15,28 +15,7 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <title>Real Good Studio</title>
-
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon/favicon-32x32.png"
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href="/favicon/favicon-16x16.png"
-          sizes="16x16"
-        />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-        />
-      </Head>
+      <SEO />
       {/* <GoogleAnalytics strategy="lazyOnload" /> */}
       <ShopProvider>
         <PrismicProvider
