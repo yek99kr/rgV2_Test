@@ -22,7 +22,7 @@ const Nav = () => {
               <img
                 src="/logoShort.png"
                 alt="logo"
-                className="w-[13.5vw] sm:w-[70px] md:w-[76px] lg:w-[87.5px] xl:w-[93px]"
+                className="w-[13.5vw] sm:w-[70px] md:w-[76px] lg:w-[87.5px] xl:w-[93px] h-auto"
               />
             </a>
           </Link>
@@ -105,7 +105,7 @@ const Nav = () => {
             </a>
           </Link>
 
-          <a
+          <div
             onClick={() => {
               setCartOpen(!cartOpen);
             }}
@@ -122,7 +122,7 @@ const Nav = () => {
                 (0)
               </span>
             </span>
-          </a>
+          </div>
           <MiniCart cart={cart} />
         </div>
       </div>

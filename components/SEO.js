@@ -40,9 +40,13 @@ const SEO = () => {
         href="favicon/favicon-16x16.png"
         sizes="16x16"
       />
-      <meta
+      {/* <meta
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      /> */}
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no"
       />
     </Head>
   );
