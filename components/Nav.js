@@ -46,8 +46,26 @@ const Nav = () => {
                 setAngle("-1.4");
               }}
             >
-              <span className=" p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3 ">
+              <span className=" p-1.5 pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3 ">
                 Projects
+              </span>
+            </a>
+          </Link>
+
+          <Link href="/realgoodfriends" passHref scroll={false}>
+            <a
+              className={`inline-block p-[0.3vw] hover:rotate-[2deg] sm:p-0 sm:pl-0.5 sm:pr-1  thumbcursor   hover:opacity-100 duration-[0.2s] 
+            ${
+              router.pathname.includes("/realgoodfriends")
+                ? "opacity-100 rotate-[2deg] "
+                : "opacity-50"
+            }`}
+              onMouseEnter={() => {
+                setAngle("-0.9");
+              }}
+            >
+              <span className={`p-1.5  pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+                Friends
               </span>
             </a>
           </Link>
@@ -61,12 +79,10 @@ const Nav = () => {
                 : "opacity-50"
             }`}
               onMouseEnter={() => {
-                setAngle("-0.7");
+                setAngle("-0.4");
               }}
             >
-              <span
-                className={`p-1.5  pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}
-              >
+              <span className={`p-1.5  pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
                 Shop
               </span>
             </a>
@@ -79,10 +95,10 @@ const Nav = () => {
             className={`inline-block hover:rotate-[2deg] p-[0.3vw] sm:p-0 sm:pl-0.5 sm:pr-1 thumbcursor duration-[0.2s] opacity-50 hover:opacity-100
            `}
             onMouseEnter={() => {
-              setAngle("0");
+              setAngle("0.4");
             }}
           >
-            <span className={`p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+            <span className={`p-1.5 pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
               Instagram
             </span>
           </a>
@@ -90,7 +106,7 @@ const Nav = () => {
           <Link href="/contact" passHref scroll={false}>
             <a
               onMouseEnter={() => {
-                setAngle("0.7");
+                setAngle("0.9");
               }}
               className={`inline-block hover:rotate-[-4deg] p-[0.3vw] sm:p-0 sm:pl-0.5 sm:pr-1 thumbcursor duration-[0.2s] hover:opacity-100 
               ${
@@ -99,7 +115,7 @@ const Nav = () => {
                   : "opacity-50"
               } `}
             >
-              <span className={`p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+              <span className={`p-1.5 pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
                 Contact
               </span>
             </a>
