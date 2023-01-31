@@ -7,9 +7,22 @@
     "primary": {
       "media": {
         "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "autoplay": true
+    }
+  },
+  {
+    "variation": "header",
+    "name": "Header",
+    "slice_type": "detail_media",
+    "items": [],
+    "primary": {
+      "media": {
+        "link_type": "Web",
         "url": "https://slicemachine.dev"
       },
-      "autoplay": false
+      "autoplay": true
     }
   }
 ]

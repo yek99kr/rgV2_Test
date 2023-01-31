@@ -17,6 +17,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -44,6 +45,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -73,6 +75,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -99,6 +102,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -130,6 +134,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -160,6 +165,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -193,6 +199,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -223,6 +230,7 @@ const DetailMediaMix = ({ slice }) => {
                     : ""
                 }`}
                 allowFullScreen
+                autoPlay="1"
               ></iframe>
             </div>
           ) : (
@@ -259,6 +267,7 @@ export default DetailMediaMix;
 //         slice.primary.media1Controls === false ? "&controls=0" : ""
 //       }`}
 //       allowFullScreen
+
 //     ></iframe>
 //   </div>
 // ) : (
@@ -283,6 +292,7 @@ export default DetailMediaMix;
 //         slice.primary.media2Controls === false ? "&controls=0" : ""
 //       }`}
 //       allowFullScreen
+
 //     ></iframe>
 //   </div>
 // ) : (
@@ -304,6 +314,8 @@ export default DetailMediaMix;
             className="w-[100%] h-[100%]"
             src="//player.vimeo.com/video/767132442?h=d63413b39c&badge=0&autopause=0&player_id=0&app_id=58479/embed"
             allowFullScreen
+               autoPlay="1"
+            
           ></iframe>
         </div>
 
@@ -312,6 +324,8 @@ export default DetailMediaMix;
             className="w-[100%] h-[100%]"
             src="//player.vimeo.com/video/769589096?h=81776fa621&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             allowFullScreen
+               autoPlay="1"
+            
           ></iframe>
         </div> */
 }

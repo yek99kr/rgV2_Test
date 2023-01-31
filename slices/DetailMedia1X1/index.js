@@ -19,6 +19,7 @@ const DetailMedia1X1 = ({ slice }) => {
                       : ""
                   }`}
                   allowFullScreen
+                  autoPlay="1"
                 ></iframe>
               </div>
             </>
@@ -50,6 +51,7 @@ const DetailMedia1X1 = ({ slice }) => {
                       : ""
                   }`}
                   allowFullScreen
+                  autoPlay="1"
                 ></iframe>
               </div>
             </>
@@ -81,6 +83,7 @@ const DetailMedia1X1 = ({ slice }) => {
                       : ""
                   }`}
                   allowFullScreen
+                  autoPlay="1"
                 ></iframe>
               </div>
             </>
@@ -114,6 +117,7 @@ const DetailMedia1X1 = ({ slice }) => {
                       : ""
                   }`}
                   allowFullScreen
+                  autoPlay="1"
                 ></iframe>
               </div>
             </>
@@ -145,6 +149,7 @@ const DetailMedia1X1 = ({ slice }) => {
                       : ""
                   }`}
                   allowFullScreen
+                  autoPlay="1"
                 ></iframe>
               </div>
             </>

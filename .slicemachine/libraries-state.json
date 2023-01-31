@@ -268,6 +268,34 @@
               },
               "items": {},
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "header",
+              "name": "Header",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DetailMedia",
+              "primary": {
+                "media": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -280,9 +308,22 @@
             "primary": {
               "media": {
                 "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "autoplay": true
+            }
+          },
+          "header": {
+            "variation": "header",
+            "name": "Header",
+            "slice_type": "detail_media",
+            "items": [],
+            "primary": {
+              "media": {
+                "link_type": "Web",
                 "url": "https://slicemachine.dev"
               },
-              "autoplay": false
+              "autoplay": true
             }
           }
         },
@@ -290,7 +331,18 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMedia/default/preview.png",
+            "width": 800,
+            "height": 432
+          },
+          "header": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMedia/header/preview.png",
+            "width": 800,
+            "height": 450
+          }
+        }
       },
       "detail_media1_x1": {
         "library": "slices",
