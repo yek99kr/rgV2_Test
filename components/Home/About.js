@@ -83,6 +83,7 @@ const About = (props) => {
     "the internet",
     "visual experiences",
     "biodiversity",
+    "funnel marketing",
     "tweets",
     "Kim",
     "space",
