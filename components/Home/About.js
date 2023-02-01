@@ -6,7 +6,7 @@ const About = (props) => {
   // const [hoverEmail, setHoverEmail] = useState(false);
 
   const madWords1 = [
-    "full service",
+    "boutique",
     "premium",
     "interdisciplinary",
     "first to market",
@@ -84,9 +84,7 @@ const About = (props) => {
     "visual experiences",
     "biodiversity",
     "tweets",
-    "complex carbohydrates",
-    "multi level marketing",
-    "kim",
+    "Kim",
     "space",
     "the metaverse",
   ];
@@ -99,7 +97,7 @@ const About = (props) => {
     "oat milk",
     "experiential marketing",
     "simulacrum",
-    "kardashian",
+    "Kardashian",
     "time",
     "cool vids",
   ];

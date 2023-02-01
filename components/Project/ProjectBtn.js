@@ -13,7 +13,7 @@ const ProjectBtn = ({ project, projects }) => {
       {/* Mobile bottom Buttons */}
       <div className="flex lg:hidden relative w-screen justify-between text-[2.9vw] sm:text-sm md:text-base pt-[9vw]">
         {previousProject ? (
-          <Link href={`/projects/${previousProject}`} passHref scroll={false}>
+          <Link href={`/work/${previousProject}`} passHref scroll={false}>
             <a>
               <div
                 className={
@@ -35,7 +35,7 @@ const ProjectBtn = ({ project, projects }) => {
         )}
 
         {nextProject ? (
-          <Link href={`/projects/${nextProject}`} passHref scroll={false}>
+          <Link href={`/work/${nextProject}`} passHref scroll={false}>
             <a>
               <div
                 className={
@@ -59,7 +59,7 @@ const ProjectBtn = ({ project, projects }) => {
       {/* Desktop bottom Buttons */}
       <div className="flex relative w-screen justify-between items-center text-[2.9vw] sm:text-sm md:text-base pt-[3.3vw] sm:pt-[2vw] lg:pt-[6rem] pb-[6vw] md:pb-[3rem] ">
         {previousProject ? (
-          <Link href={`/projects/${previousProject}`} passHref scroll={false}>
+          <Link href={`/work/${previousProject}`} passHref scroll={false}>
             <a>
               <div
                 className={
@@ -86,16 +86,16 @@ const ProjectBtn = ({ project, projects }) => {
           </div>
         )}
 
-        <Link href="/projects" passHref scroll={false}>
+        <Link href="/work" passHref scroll={false}>
           <a>
             <div className="bg-white/60 backdrop-blur-sm w-[94vw] md:w-[96vw] lg:w-[350px] xl:w-[455px] rounded text-center p-2.5 md:p-3 thumbcursor text-black duration-150 hover:opacity-50">
-              Back to Projects
+              Back to Work
             </div>
           </a>
         </Link>
 
         {nextProject ? (
-          <Link href={`/projects/${nextProject}`} passHref scroll={false}>
+          <Link href={`/work/${nextProject}`} passHref scroll={false}>
             <a>
               <div
                 className={

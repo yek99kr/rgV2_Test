@@ -3,8 +3,8 @@ import { useRouter } from "next/router";
 import { useContext } from "react";
 import { useState } from "react";
 import { CartContext } from "../context/shopContext";
-import MiniCart from "./Shop/MiniCart";
-import Image from "next/image";
+// import MiniCart from "./Shop/MiniCart";
+// import Image from "next/image";
 
 const Nav = () => {
   const router = useRouter();
@@ -34,11 +34,11 @@ const Nav = () => {
             "duration-75 bg-white/60 backdrop-blur-md rounded p-[1.5vw] pl-0 pr-0 sm:p-[0.45rem] sm:pl-1 sm:pr-1 "
           }
         >
-          <Link href="/projects" passHref scroll={false}>
+          <Link href="/work" passHref scroll={false}>
             <a
               className={`inline-block hover:rotate-[3deg]  p-[0.3vw] sm:p-0 sm:pl-0.5 sm:pr-1 thumbcursor duration-[0.2s]  hover:opacity-100
               ${
-                router.pathname.includes("/projects")
+                router.pathname.includes("/work")
                   ? "opacity-100 rotate-[3deg] "
                   : "opacity-50"
               }`}
@@ -46,13 +46,13 @@ const Nav = () => {
                 setAngle("-1.4");
               }}
             >
-              <span className=" p-1.5 pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3 ">
-                Projects
+              <span className=" p-1.5 pr-[0vw] pl-[2.5vw] sm:pr-3 sm:pl-3 ">
+                Work
               </span>
             </a>
           </Link>
 
-          <Link href="/realgoodfriends" passHref scroll={false}>
+          {/* <Link href="/realgoodfriends" passHref scroll={false}>
             <a
               className={`inline-block p-[0.3vw] hover:rotate-[2deg] sm:p-0 sm:pl-0.5 sm:pr-1  thumbcursor   hover:opacity-100 duration-[0.2s] 
             ${
@@ -64,11 +64,11 @@ const Nav = () => {
                 setAngle("-0.9");
               }}
             >
-              <span className={`p-1.5  pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+              <span className={`p-1.5  pr-[0vw] pl-[2.5vw] sm:pr-3 sm:pl-3  `}>
                 Friends
               </span>
             </a>
-          </Link>
+          </Link> */}
 
           <Link href="/shop" passHref scroll={false}>
             <a
@@ -82,7 +82,7 @@ const Nav = () => {
                 setAngle("-0.4");
               }}
             >
-              <span className={`p-1.5  pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+              <span className={`p-1.5  pr-[0vw] pl-[2.5vw] sm:pr-3 sm:pl-3  `}>
                 Shop
               </span>
             </a>
@@ -98,7 +98,7 @@ const Nav = () => {
               setAngle("0.4");
             }}
           >
-            <span className={`p-1.5 pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+            <span className={`p-1.5 pr-[0vw] pl-[2.5vw] sm:pr-3 sm:pl-3  `}>
               Instagram
             </span>
           </a>
@@ -115,13 +115,15 @@ const Nav = () => {
                   : "opacity-50"
               } `}
             >
-              <span className={`p-1.5 pr-[0vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+              <span
+                className={`p-1.5  pr-[2.5vw] pl-[2.5vw] sm:pr-3 sm:pl-3  `}
+              >
                 Contact
               </span>
             </a>
           </Link>
 
-          <div
+          {/* <div
             onClick={() => {
               setCartOpen(!cartOpen);
             }}
@@ -132,14 +134,14 @@ const Nav = () => {
               setAngle("1.4");
             }}
           >
-            <span className={`p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+            <span className={`p-1.5 pr-[2.2vw] pl-[2.5vw] sm:pr-3 sm:pl-3  `}>
               Cart{" "}
               <span className="relative top-[-1.4vw] sm:top-[-0.4rem] md:top-[-0.4rem]  m-[-0.4vw] sm:m-[-2px] text-[1.5vw] sm:text-[7px] md:text-[10px]">
                 (0)
               </span>
             </span>
           </div>
-          <MiniCart cart={cart} />
+          <MiniCart cart={cart} /> */}
         </div>
       </div>
     </>
