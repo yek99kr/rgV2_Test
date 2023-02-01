@@ -11,7 +11,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media1.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media1Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -39,7 +39,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media2.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media2Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -69,7 +69,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media1.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media1Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -96,7 +96,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media2.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media2Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -128,7 +128,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media1.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media1Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -159,7 +159,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media2.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media2Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -193,7 +193,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media1.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media1Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -224,7 +224,7 @@ const DetailMediaMix = ({ slice }) => {
                 className="w-[100%] h-[100%]"
                 src={`${slice.primary.media2.url.slice(
                   6
-                )}?quality=1080p&loop=1?background=1${
+                )}?quality=1080p&loop=1&background=1${
                   slice.primary.media2Autoplay
                     ? "&autoplay=1&muted=1&controls=0"
                     : ""
@@ -263,7 +263,7 @@ export default DetailMediaMix;
 //       className="w-[100%] h-[100%]"
 //       src={`${slice.primary.media1.url.slice(
 //         6
-//       )}?quality=1080p&loop=1&autoplay=1&muted=1?background=1${
+//       )}?quality=1080p&loop=1&autoplay=1&muted=1&background=1${
 //         slice.primary.media1Controls === false ? "&controls=0" : ""
 //       }`}
 //       allowFullScreen
@@ -288,7 +288,7 @@ export default DetailMediaMix;
 //       className="w-[100%] h-[100%]"
 //       src={`${slice.primary.media2.url.slice(
 //         6
-//       )}?quality=1080p&loop=1&autoplay=1&muted=1?background=1${
+//       )}?quality=1080p&loop=1&autoplay=1&muted=1&background=1${
 //         slice.primary.media2Controls === false ? "&controls=0" : ""
 //       }`}
 //       allowFullScreen

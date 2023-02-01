@@ -14,7 +14,7 @@ const DetailMedia = ({ slice }) => {
                   className="w-[100%] h-[100%]"
                   src={`${slice.primary.media.url.slice(
                     6
-                  )}?quality=1080p&loop=1?background=1${
+                  )}?quality=1080p&loop=1&background=1${
                     slice.primary.autoplay
                       ? "&autoplay=1&muted=1&controls=0"
                       : ""
@@ -50,7 +50,7 @@ const DetailMedia = ({ slice }) => {
                   className="w-[100%] h-[100%]"
                   src={`${slice.primary.media.url.slice(
                     6
-                  )}?quality=1080p&loop=1?background=1${
+                  )}?quality=1080p&loop=1&background=1${
                     slice.primary.autoplay
                       ? "&autoplay=1&muted=1&controls=0"
                       : ""
