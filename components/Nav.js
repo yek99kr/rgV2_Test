@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useContext } from "react";
 import { useState } from "react";
-import { CartContext } from "../context/shopContext";
+// import { CartContext } from "../context/shopContext";
 // import MiniCart from "./Shop/MiniCart";
 // import Image from "next/image";
 
