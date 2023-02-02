@@ -58,7 +58,7 @@ export default function Home({ router }) {
               rel="noreferrer"
             >
               <span
-                className="insta cursor-pointer inline-block noselect thumbcursor"
+                className="insta cursor-pointer inline-block thumbcursor"
                 onMouseEnter={() => setHoverEmail(true)}
                 onMouseLeave={() => setHoverEmail(false)}
               >
