@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-// import SEO from "../components/SEO";
+import SEO from "../components/SEO";
 import { AnimatePresence } from "framer-motion";
 import Nav from "../components/Nav";
 import Link from "next/link";
@@ -8,15 +8,15 @@ import { PrismicPreview } from "@prismicio/next";
 import { linkResolver, repositoryName } from "../prismicio";
 import useMediaQueryHeight from "../utils/useMediaQueryHeight";
 import ShopProvider from "../context/shopContext";
-// import { GoogleAnalytics } from "nextjs-google-analytics";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 function MyApp({ Component, pageProps, router }) {
   const isSmallestHeight = useMediaQueryHeight(349);
 
   return (
     <>
-      {/* <SEO />
-      <GoogleAnalytics strategy="lazyOnload" /> */}
+      <SEO />
+      <GoogleAnalytics strategy="lazyOnload" />
       <ShopProvider>
         <PrismicProvider
           linkResolver={linkResolver}
