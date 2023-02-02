@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const Nav = () => {
   const router = useRouter();
-  const [copyed, setCopyed] = useState(false);
+
   // const { cart, cartOpen, setCartOpen } = useContext(CartContext);
 
   const [angle, setAngle] = useState("0");
@@ -103,25 +103,23 @@ const Nav = () => {
             </span>
           </a>
 
-          <div
-            onClick={() => {
-              navigator.clipboard.writeText("hello@realgood.tv");
-              setCopyed(true);
-            }}
-            onMouseEnter={() => {
-              setAngle("1.2");
-            }}
-            className={`inline-block hover:rotate-[-4deg] p-[0.3vw] sm:p-0 sm:pl-0.5 sm:pr-1 thumbcursor duration-[0.2s] hover:opacity-100 
+          <Link href="/contact" passHref scroll={false}>
+            <a
+              onMouseEnter={() => {
+                setAngle("1.2");
+              }}
+              className={`inline-block hover:rotate-[-4deg] p-[0.3vw] sm:p-0 sm:pl-0.5 sm:pr-1 thumbcursor duration-[0.2s] hover:opacity-100 
               ${
                 router.pathname.includes("/contact")
                   ? "opacity-100 rotate-[-4deg] "
                   : "opacity-50"
               } `}
-          >
-            <span className={`p-1.5  pr-[3vw] pl-[3vw] sm:pr-3 sm:pl-3  `}>
-              Contact
-            </span>
-          </div>
+            >
+              <span className={`p-1.5 pr-[2.2vw] pl-[2.2vw] sm:pr-3 sm:pl-3  `}>
+                Contact
+              </span>
+            </a>
+          </Link>
 
           {/* <div
             onClick={() => {
@@ -142,17 +140,6 @@ const Nav = () => {
             </span>
           </div>
           <MiniCart cart={cart} /> */}
-        </div>
-      </div>
-      <div
-        className={`flex fixed w-screen justify-center items-center mt-[3.5vw] 2xs:mt-[4rem] xs:mt-[4.5rem] sm:mt-[4.5rem] text-[2.9vw] sm:text-sm md:text-base z-[1000] pointer-events-none  ${
-          copyed ? "opacity-100" : "opacity-0"
-        }`}
-        style={{ transition: "opacity 0.8s" }}
-        onTransitionEnd={() => setCopyed(false)}
-      >
-        <div className="bg-white/60 backdrop-blur-sm w-[65vw] sm:w-[300px] md:w-[400px] rounded text-center p-2.5 ">
-          <span>hello@realgood.tv copyed to clipboard</span>
         </div>
       </div>
     </>
