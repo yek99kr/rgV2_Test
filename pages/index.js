@@ -26,7 +26,7 @@ export default function Home({ router }) {
   }
 
   return (
-    <div>
+    <>
       {hand}
       <motion.div
         key={router.route}
@@ -46,6 +46,6 @@ export default function Home({ router }) {
       >
         <HomePage router={router} />
       </motion.div>
-    </div>
+    </>
   );
 }

@@ -58,6 +58,42 @@ export default function Home({ router }) {
               rel="noreferrer"
             >
               <span
+                className="insta cursor-pointer inline-block noselect thumbcursor"
+                onMouseEnter={() => setHoverEmail(true)}
+                onMouseLeave={() => setHoverEmail(false)}
+              >
+                <span className="wiggle1 text-pink-500">h</span>
+                <span className="wiggle2 text-sky-400">e</span>
+                <span className="wiggle3 text-yellow-500">l</span>
+                <span className="wiggle4 text-purple-500">l</span>
+                <span className="wiggle5 text-pink-500">o</span>
+                <span className="wiggle6 text-sky-400">@</span>
+                <span className="wiggle7 text-pink-500">r</span>
+                <span className="wiggle8 text-yellow-500">e</span>
+                <span className="wiggle9 text-green-500">a</span>
+                <span className="wiggle10 text-pink-500">l</span>
+                <span className="wiggle11 text-sky-400">g</span>
+                <span className="wiggle1 text-yellow-500">o</span>
+                <span className="wiggle2 text-purple-500">o</span>
+                <span className="wiggle3 text-pink-500">d</span>
+                <span className="wiggle4 text-sky-400">.</span>
+                <span className="wiggle5 text-pink-500">t</span>
+                <span className="wiggle6 text-yellow-500">v</span>
+                {hoverEmail ? (
+                  <img
+                    src="send.png"
+                    alt="send"
+                    className="w-[1.3em] inline m-2 noselect"
+                  />
+                ) : (
+                  <img
+                    src="email.png"
+                    alt="email"
+                    className="w-[1.3em] inline m-2 noselect"
+                  />
+                )}
+              </span>
+              {/* <span
                 className="thumbcursor"
                 onMouseEnter={() => setHoverEmail(true)}
                 onMouseLeave={() => setHoverEmail(false)}
@@ -76,7 +112,7 @@ export default function Home({ router }) {
                     className="w-[1.3em] inline m-2 noselect"
                   />
                 )}
-              </span>
+              </span> */}
             </a>
           </div>
         </div>

@@ -123,6 +123,17 @@ button:focus {
   animation: bounce 1s ease infinite 0.8s;
 }
 
+.wiggle10 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 0.9s;
+}
+.wiggle11 {
+  position: relative;
+  display: inline-block;
+  animation: bounce 1s ease infinite 1s;
+}
+
 .wiggle1:hover {
   transform: scaleX(-1) scaleY(1);
 }
@@ -148,6 +159,12 @@ button:focus {
   transform: scaleX(-1) scaleY(1);
 }
 .wiggle9:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle10:hover {
+  transform: scaleX(-1) scaleY(1);
+}
+.wiggle11:hover {
   transform: scaleX(-1) scaleY(1);
 }
 
