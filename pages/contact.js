@@ -58,6 +58,35 @@ export default function Home({ router }) {
               rel="noreferrer"
             >
               <span
+                className="thumbcursor"
+                onMouseEnter={() => setHoverEmail(true)}
+                onMouseLeave={() => setHoverEmail(false)}
+              >
+                <span>hello@realgood.tv</span>
+                {hoverEmail ? (
+                  <img
+                    src="send.png"
+                    alt="send"
+                    className="w-[1.3em] inline m-2 noselect"
+                  />
+                ) : (
+                  <img
+                    src="email.png"
+                    alt="email"
+                    className="w-[1.3em] inline m-2 noselect"
+                  />
+                )}
+              </span>
+            </a>
+          </div>
+        </div>
+      </motion.div>
+    </div>
+  );
+}
+
+{
+  /* <span
                 className="insta cursor-pointer inline-block thumbcursor"
                 onMouseEnter={() => setHoverEmail(true)}
                 onMouseLeave={() => setHoverEmail(false)}
@@ -92,31 +121,5 @@ export default function Home({ router }) {
                     className="w-[1.3em] inline m-2 noselect"
                   />
                 )}
-              </span>
-              {/* <span
-                className="thumbcursor"
-                onMouseEnter={() => setHoverEmail(true)}
-                onMouseLeave={() => setHoverEmail(false)}
-              >
-                <span>hello@realgood.tv</span>
-                {hoverEmail ? (
-                  <img
-                    src="send.png"
-                    alt="send"
-                    className="w-[1.3em] inline m-2 noselect"
-                  />
-                ) : (
-                  <img
-                    src="email.png"
-                    alt="email"
-                    className="w-[1.3em] inline m-2 noselect"
-                  />
-                )}
-              </span> */}
-            </a>
-          </div>
-        </div>
-      </motion.div>
-    </div>
-  );
+              </span> */
 }
