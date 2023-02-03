@@ -135,7 +135,7 @@ const About = (props) => {
         </p>
 
         <>
-          <p className="font-[400] pt-[1.8em] sm:pt-[1.5em]">
+          {/* <p className="font-[400] pt-[1.8em] sm:pt-[1.5em]">
             You can see our work{" "}
             <Link href="/projects">
               <a>
@@ -166,7 +166,7 @@ const About = (props) => {
               </span>
             </a>
             .
-          </p>
+          </p> */}
         </>
 
         {/* <p className="font-[400] pt-[1.8em] sm:pt-[1.5em] select-auto">

@@ -7,12 +7,12 @@
     "primary": {
       "media1": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "https://slicemachine.dev"
       },
       "media1Autoplay": true,
       "media2": {
         "link_type": "Web",
-        "url": "http://google.com"
+        "url": "http://twitter.com"
       },
       "media2Autoplay": true
     }
@@ -25,9 +25,9 @@
     "primary": {
       "media1": {
         "link_type": "Web",
-        "url": "http://twitter.com"
+        "url": "https://slicemachine.dev"
       },
-      "media1Autoplay": false,
+      "media1Autoplay": true,
       "media2": {
         "link_type": "Web",
         "url": "http://google.com"
@@ -43,14 +43,14 @@
     "primary": {
       "media1": {
         "link_type": "Web",
-        "url": "http://twitter.com"
-      },
-      "media1Autoplay": false,
-      "media2": {
-        "link_type": "Web",
         "url": "https://prismic.io"
       },
-      "media2Autoplay": false
+      "media1Autoplay": true,
+      "media2": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "media2Autoplay": true
     }
   },
   {
@@ -61,12 +61,66 @@
     "primary": {
       "media1": {
         "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media1Autoplay": true,
+      "media2": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media2Autoplay": true
+    }
+  },
+  {
+    "variation": "169916",
+    "name": "16/9 + 9/16",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
         "url": "http://google.com"
       },
       "media1Autoplay": false,
       "media2": {
         "link_type": "Web",
+        "url": "http://twitter.com"
+      },
+      "media2Autoplay": true
+    }
+  },
+  {
+    "variation": "91616X9",
+    "name": "9/16 + 16X9",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
         "url": "https://slicemachine.dev"
+      },
+      "media2Autoplay": false
+    }
+  },
+  {
+    "variation": "11169",
+    "name": "1/1 + 16/9",
+    "slice_type": "detail_media_mix",
+    "items": [],
+    "primary": {
+      "media1": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "media1Autoplay": false,
+      "media2": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
       },
       "media2Autoplay": false
     }

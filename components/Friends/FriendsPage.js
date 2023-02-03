@@ -1,16 +1,16 @@
-import Ad from "../Home/Ad";
+// import Ad from "../Home/Ad";
 // import DragBackground from "./DragBackground";
 import Friends from "./Friends";
 import { motion } from "framer-motion";
-import useMediaQueryHeight from "../../utils/useMediaQueryHeight";
-import useMediaQueryWidth from "../../utils/useMediaQueryWidth";
-import useIsTouch from "../../utils/useIsTouch";
+// import useMediaQueryHeight from "../../utils/useMediaQueryHeight";
+// import useMediaQueryWidth from "../../utils/useMediaQueryWidth";
+// import useIsTouch from "../../utils/useIsTouch";
 
 const FriendsPage = ({ router }) => {
-  const isSmallerWidth = useMediaQueryWidth(638);
-  const isSmallerHeight = useMediaQueryHeight(550);
-  const isSmallestHeight = useMediaQueryHeight(349);
-  const isTouch = useIsTouch();
+  // const isSmallerWidth = useMediaQueryWidth(638);
+  // const isSmallerHeight = useMediaQueryHeight(550);
+  // const isSmallestHeight = useMediaQueryHeight(349);
+  // const isTouch = useIsTouch();
 
   return (
     <div className="absolute w-[100vw] h-[100vh] overflow-hidden">
@@ -20,7 +20,7 @@ const FriendsPage = ({ router }) => {
         <DragBackground />
       )} */}
 
-      {isSmallestHeight || (!isSmallerWidth && isSmallerHeight) ? null : <Ad />}
+      {/* {isSmallestHeight || (!isSmallerWidth && isSmallerHeight) ? null : <Ad />} */}
       <motion.div
         key={router.route}
         className="w-[100vw]"

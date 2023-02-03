@@ -957,6 +957,141 @@
               },
               "items": {},
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "169916",
+              "name": "16/9 + 9/16",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DetailMediaMix",
+              "primary": {
+                "media1": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media1",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media1Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media1 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                },
+                "media2": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media2",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media2Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media2 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "91616X9",
+              "name": "9/16 + 16X9",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DetailMediaMix",
+              "primary": {
+                "media1": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media1",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media1Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media1 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                },
+                "media2": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media2",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media2Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media2 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "11169",
+              "name": "1/1 + 16/9",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DetailMediaMix",
+              "primary": {
+                "media1": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media1",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media1Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media1 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                },
+                "media2": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media2",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media2Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media2 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -969,9 +1104,9 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://slicemachine.dev"
               },
-              "media1Autoplay": false,
+              "media1Autoplay": true,
               "media2": {
                 "link_type": "Web",
                 "url": "http://google.com"
@@ -987,7 +1122,25 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://prismic.io"
+              },
+              "media1Autoplay": true,
+              "media2": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "media2Autoplay": true
+            }
+          },
+          "11169": {
+            "variation": "11169",
+            "name": "1/1 + 16/9",
+            "slice_type": "detail_media_mix",
+            "items": [],
+            "primary": {
+              "media1": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
               },
               "media1Autoplay": false,
               "media2": {
@@ -995,6 +1148,24 @@
                 "url": "https://prismic.io"
               },
               "media2Autoplay": false
+            }
+          },
+          "169916": {
+            "variation": "169916",
+            "name": "16/9 + 9/16",
+            "slice_type": "detail_media_mix",
+            "items": [],
+            "primary": {
+              "media1": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "media1Autoplay": false,
+              "media2": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "media2Autoplay": true
             }
           },
           "default": {
@@ -1005,12 +1176,12 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://slicemachine.dev"
               },
               "media1Autoplay": true,
               "media2": {
                 "link_type": "Web",
-                "url": "http://google.com"
+                "url": "http://twitter.com"
               },
               "media2Autoplay": true
             }
@@ -1023,7 +1194,25 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "http://google.com"
+                "url": "https://prismic.io"
+              },
+              "media1Autoplay": true,
+              "media2": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
+              },
+              "media2Autoplay": true
+            }
+          },
+          "91616X9": {
+            "variation": "91616X9",
+            "name": "9/16 + 16X9",
+            "slice_type": "detail_media_mix",
+            "items": [],
+            "primary": {
+              "media1": {
+                "link_type": "Web",
+                "url": "https://prismic.io"
               },
               "media1Autoplay": false,
               "media2": {
@@ -1038,7 +1227,43 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "3411": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/3411/preview.png",
+            "width": 800,
+            "height": 857
+          },
+          "4545": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/4545/preview.png",
+            "width": 800,
+            "height": 936
+          },
+          "11169": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/11169/preview.png",
+            "width": 800,
+            "height": 962
+          },
+          "169916": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/169916/preview.png",
+            "width": 800,
+            "height": 646
+          },
+          "default": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/default/preview.png",
+            "width": 800,
+            "height": 962
+          },
+          "11Filter": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/11Filter/preview.png",
+            "width": 800,
+            "height": 855
+          },
+          "91616X9": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/91616X9/preview.png",
+            "width": 800,
+            "height": 646
+          }
+        }
       },
       "detail_text": {
         "library": "slices",
