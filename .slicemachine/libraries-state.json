@@ -1092,6 +1092,51 @@
               },
               "items": {},
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "16911",
+              "name": "16/9 + 1/1",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "DetailMediaMix",
+              "primary": {
+                "media1": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media1",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media1Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media1 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                },
+                "media2": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Media2",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "media2Autoplay": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Media2 Autoplay",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -1099,6 +1144,24 @@
           "3411": {
             "variation": "3411",
             "name": "3/4 + 1/1",
+            "slice_type": "detail_media_mix",
+            "items": [],
+            "primary": {
+              "media1": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "media1Autoplay": false,
+              "media2": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "media2Autoplay": false
+            }
+          },
+          "4545": {
+            "variation": "4545",
+            "name": "4/5 + 4/5",
             "slice_type": "detail_media_mix",
             "items": [],
             "primary": {
@@ -1114,24 +1177,6 @@
               "media2Autoplay": true
             }
           },
-          "4545": {
-            "variation": "4545",
-            "name": "4/5 + 4/5",
-            "slice_type": "detail_media_mix",
-            "items": [],
-            "primary": {
-              "media1": {
-                "link_type": "Web",
-                "url": "https://prismic.io"
-              },
-              "media1Autoplay": true,
-              "media2": {
-                "link_type": "Web",
-                "url": "https://slicemachine.dev"
-              },
-              "media2Autoplay": true
-            }
-          },
           "11169": {
             "variation": "11169",
             "name": "1/1 + 16/9",
@@ -1140,9 +1185,27 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "http://twitter.com"
               },
               "media1Autoplay": false,
+              "media2": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              },
+              "media2Autoplay": false
+            }
+          },
+          "16911": {
+            "variation": "16911",
+            "name": "16/9 + 1/1",
+            "slice_type": "detail_media_mix",
+            "items": [],
+            "primary": {
+              "media1": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "media1Autoplay": true,
               "media2": {
                 "link_type": "Web",
                 "url": "https://prismic.io"
@@ -1160,12 +1223,12 @@
                 "link_type": "Web",
                 "url": "http://google.com"
               },
-              "media1Autoplay": false,
+              "media1Autoplay": true,
               "media2": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://slicemachine.dev"
               },
-              "media2Autoplay": true
+              "media2Autoplay": false
             }
           },
           "default": {
@@ -1176,14 +1239,14 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "https://prismic.io"
               },
-              "media1Autoplay": true,
+              "media1Autoplay": false,
               "media2": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "http://google.com"
               },
-              "media2Autoplay": true
+              "media2Autoplay": false
             }
           },
           "11Filter": {
@@ -1194,9 +1257,9 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "https://prismic.io"
+                "url": "http://twitter.com"
               },
-              "media1Autoplay": true,
+              "media1Autoplay": false,
               "media2": {
                 "link_type": "Web",
                 "url": "https://prismic.io"
@@ -1212,12 +1275,12 @@
             "primary": {
               "media1": {
                 "link_type": "Web",
-                "url": "https://prismic.io"
+                "url": "http://twitter.com"
               },
               "media1Autoplay": false,
               "media2": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "http://google.com"
               },
               "media2Autoplay": false
             }
@@ -1240,6 +1303,11 @@
           },
           "11169": {
             "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/11169/preview.png",
+            "width": 800,
+            "height": 544
+          },
+          "16911": {
+            "path": "/Users/rachelyeeunkim/Desktop/RealGood/website/rbwebsiteV2/.slicemachine/assets/slices/DetailMediaMix/16911/preview.png",
             "width": 800,
             "height": 962
           },
