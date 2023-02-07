@@ -15,8 +15,8 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <>
-      <SEO />
-      <GoogleAnalytics strategy="lazyOnload" />
+      {/* <SEO /> */}
+      {/* <GoogleAnalytics strategy="lazyOnload" /> */}
       <ShopProvider>
         <PrismicProvider
           linkResolver={linkResolver}
