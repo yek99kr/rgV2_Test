@@ -18,7 +18,7 @@ const About = (props) => {
 
   return (
     <>
-      <div className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[67%] leading-[2] md:leading-[2.2] lg:leading-[1.9] w-[88vw] sm:w-[85vw] md:w-[85vw] lg:w-[85vw] xl:w-[85vw] 2xl:w-[85vw] text-[3.1vw] 4xs:text-[2.9vw] sm:text-[15px] md:text-[16px] lg:text-[18.5px] xl:text-[19.5px] 2xl:text-[23px] text-center  p-5">
+      <div className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[64.5%] leading-[2] md:leading-[2.2] lg:leading-[1.9] w-[88vw] sm:w-[85vw] md:w-[85vw] lg:w-[85vw] xl:w-[85vw] 2xl:w-[85vw] text-[3.1vw] 4xs:text-[2.9vw] sm:text-[15px] md:text-[16px] lg:text-[18.5px] xl:text-[19.5px] 2xl:text-[23px] text-center  p-5">
         <div className="flex justify-center items-center ">
           {/* <iframe
             className="w-[43vw] h-[25vw] "
